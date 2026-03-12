@@ -11,6 +11,7 @@ namespace GameLogic.UI
     public sealed class UIWindowOpenOptionsInput
     {
         public string PrefabPath { get; set; }
+        public string PackageName { get; set; }
         public UILayer Layer { get; set; }
         public UIWindowCacheMode CacheMode { get; set; } = UIWindowCacheMode.Cache;
         public int SortingOrderOffset { get; set; }
@@ -32,6 +33,7 @@ namespace GameLogic.UI
             }
 
             PrefabPath = input.PrefabPath;
+            PackageName = input.PackageName ?? string.Empty;
             Layer = input.Layer;
             CacheMode = input.CacheMode;
             SortingOrderOffset = input.SortingOrderOffset;
@@ -39,6 +41,7 @@ namespace GameLogic.UI
         }
 
         public string PrefabPath { get; }
+        public string PackageName { get; }
         public UILayer Layer { get; }
         public UIWindowCacheMode CacheMode { get; }
         public int SortingOrderOffset { get; }

@@ -210,6 +210,7 @@ namespace GameLogic.UI
             {
                 Location = options.PrefabPath,
                 Parent = _layers[options.Layer].Root,
+                PackageName = options.PackageName,
             });
         }
 
@@ -470,6 +471,7 @@ namespace GameLogic.UI
         }
     }
 }
+
 
 
 
