@@ -4,7 +4,12 @@
       "mcp__ace-tool__search_context",
       "Bash(openspec new:*)",
       "Bash(openspec status:*)",
-      "Bash(openspec instructions:*)"
+      "Bash(openspec instructions:*)",
+      "Bash(cd /c/Users/sy/.claude/skills/exa-search && python scripts/exa_search.py docs --query \"Unity UI Canvas\" --text --num 2)",
+      "Bash(python scripts/exa_search.py docs --query \"Unity UI Canvas\" --text --num 2)",
+      "Bash(cp -r \"f:/Ugit/Frameworks/Unity-Framework/Project.Framework/Assets/GameScripts/HotFix/GameLogic/UXTools\" \"F:/Ugit/TEngine_csy/UnityProject/Assets/GameScripts/HotFix/GameLogic/\")",
+      "Read(//c/Users/sy/.claude/skills/unity-skills/**)",
+      "Bash(python scripts/unity_skills.py assets-refresh)"
     ]
   }
 }
